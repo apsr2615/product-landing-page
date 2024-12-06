@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="pdt.css">
+</head>
+<body>
+   
+    <header id="header">
+        <div class="container">
+            <img id="header-img" src="logo.png" alt="Product Logo">
+            <nav id="nav-bar">
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main>
+       
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Our Product</h2>
+                <p>Our product is designed to bring efficiency and convenience to your life.</p>
+                <iframe id="video" 
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+                        title="Product Video" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen">
+                </iframe>
+            </div>
+        </section>
+
+      
+        <section id="features" class="section">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h3>Feature 1</h3>
+                        <p>High-Fiber Content: Supports digestion and promotes a healthy gut.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Feature 2</h3>
+                        <p>Wholesome Ingredients: Made with whole grains and no artificial additives.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Feature 3</h3>
+                        <p>Quick and Easy: A convenient breakfast option ready in minutes.
+
+
+
+
+
+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="pricing" class="section">
+            <div class="container">
+                <h2>Pricing</h2>
+                <p>Choose the plan that fits your needs.</p>
+                <div class="pricing-grid">
+                    <div class="pricing-item">
+                        <h3>Basic Plan</h3>
+                        <p>$10/month</p>
+                    </div>
+                    <div class="pricing-item">
+                        <h3>Pro Plan</h3>
+                        <p>$30/month</p>
+                    </div>
+                    <div class="pricing-item">
+                        <h3>Enterprise Plan</h3>
+                        <p>$100/month</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="form-section" class="section">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <input id="email" type="email" placeholder="Enter your email" name="email" required>
+                    <input id="submit" type="submit">Subscribe</input>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
